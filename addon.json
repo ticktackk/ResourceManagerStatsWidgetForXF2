@@ -12,13 +12,17 @@
         "Twitter": "https://twitter.com/t1cktackk"
     },
     "require": {
+        "php": [
+            "7.3",
+            "PHP 7.3+"
+        ],
         "XF": [
             2011072,
             "XenForo 2.1.10 Patch 2+"
         ],
-        "php": [
-            "7.3",
-            "PHP 7.3+"
+        "XFRM": [
+            2010070,
+            "XenForo Resource Manager 2.1.0+"
         ]
     },
     "icon": "fa-chart-line"
