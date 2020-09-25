@@ -1,0 +1,36 @@
+<div class="block"{{ widget_data($widget) }}>
+	<div class="block-container">
+		<h3 class="block-minorHeader">{$title}</h3>
+		<div class="block-body block-row">
+			<dl class="pairs pairs--justified">
+				<dt>{{ phrase('xfrm_resources') }}</dt>
+				<dd>{$resourceManagerStatistics.resources|number}</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>{{ phrase('xfrm_updates') }}</dt>
+				<dd>{$resourceManagerStatistics.updates|number}</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>{{ phrase('xfrm_ratings') }}</dt>
+				<dd>{$resourceManagerStatistics.ratings|number}</dd>
+			</dl>
+
+			<dl class="pairs pairs--justified">
+				<dt>{{ phrase('tckResourceManagerStatsWidget_files') }}</dt>
+				<dd>{$resourceManagerStatistics.files|number}</dd>
+			</dl>
+			
+			<dl class="pairs pairs--justified">
+				<dt>{{ phrase('tckResourceManagerStatsWidget_disk_usage') }}</dt>
+				<dd>{$resourceManagerStatistics.disk_usage|file_size}</dd>
+			</dl>
+			
+			<dl class="pairs pairs--justified">
+				<dt>{{ phrase('tckResourceManagerStatsWidget_downloads') }}</dt>
+				<dd>{$resourceManagerStatistics.downloads|number}</dd>
+			</dl>
+		</div>
+	</div>
+</div>

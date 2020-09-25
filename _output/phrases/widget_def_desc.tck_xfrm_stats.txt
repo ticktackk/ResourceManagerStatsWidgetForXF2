@@ -1,0 +1,1 @@
+Displays a block which that shows the forum's current resource manager statistics on things like total resources, updates, ratings, files, disk usage and downloads.

@@ -6,4 +6,36 @@ This add-on allows showing resource manager statistics in a widget.
 [SIZE=5][B]Requirements[/B][/SIZE]
 [LIST]
 [*]PHP 7.3+
+[*]XenForo Resource Manager 2.1.0+
 [/LIST]
+
+[SIZE=5][B]Widget Definitions[/B][/SIZE]
+[TABLE]
+[TR]
+[TH]Definition[/TH]
+[TH]Description[/TH]
+[/TR]
+[TR]
+[TD]Resource manager statistics ([ICODE]tck_xfrm_stats[/ICODE])[/TD]
+[TD]Displays a block which that shows the forum's current resource manager statistics on things like total resources, updates, ratings, files, disk usage and downloads.[/TD]
+[/TR]
+[/TABLE]
+
+[SIZE=5][B]Cron Entries[/B][/SIZE]
+[TABLE]
+[TR]
+[TH]Name[/TH]
+[TH]Run on...[/TH]
+[TH]Run at hours[/TH]
+[TH]Run at minutes[/TH]
+[/TR]
+[TR]
+[TD]Rebuild resource manager statistics[/TD]
+[TD]Any day of the month[/TD]
+[TD]Any[/TD]
+[TD]4[/TD]
+[/TR]
+[/TABLE]
+
+[SIZE=5][B]License[/B][/SIZE]
+This project is licensed under the MIT License - see the [URL='https://github.com/ticktackk/ResourceManagerStatsWidgetForXF2/blob/master/LICENSE.md']LICENSE.md[/URL] file for details.
